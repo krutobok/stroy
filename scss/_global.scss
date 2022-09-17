@@ -1,0 +1,124 @@
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #72787D;
+  //overflow-x: hidden;
+  //min-width: 320px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+li,
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+
+.container{
+  max-width: 1070px;
+  padding: 0 8px;
+  margin: 0 auto;
+  &-max{
+    max-width: 1440px;
+    padding: 0 31px;
+    margin: 0 auto;
+  }
+}
+
+.btn{
+  padding: 13px 25px;
+  border-radius: 4px;
+  outline: none;
+  background: #FFFFFF;
+  border: 1px solid #DADEDF;
+  font-size: 18px;
+  line-height: 24px;
+  color: #212B31;
+  cursor: pointer;
+  &-demo{
+    background: #212B31;
+    border: none;
+    color: #FFFFFF;
+    margin-right: 16px;
+  }
+}
+
+
+.underline{
+  position: relative;
+  &::after{
+    content: '';
+    position: absolute;
+    background: #FFD042;
+    height: 16px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+}
+
+
+
+.section-title{
+  font-size: 32px;
+  line-height: 48px;
+  color: #212B31;
+}
+
+.subtitle{
+  font-size: 18px;
+  line-height: 24px;
+  color: #212B31;
+}
+.subtext{
+  font-size: 16px;
+  line-height: 24px;
+  color: #72787D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
